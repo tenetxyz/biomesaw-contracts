@@ -9,11 +9,11 @@
     "solhint": "solhint --config ./.solhint.json 'src/**/*.sol' --fix"
   },
   "dependencies": {
-    "@latticexyz/cli": "link:../../../mud/packages/cli",
-    "@latticexyz/schema-type": "link:../../../mud/packages/schema-type",
-    "@latticexyz/store": "link:../../../mud/packages/store",
-    "@latticexyz/world": "link:../../../mud/packages/world",
-    "@latticexyz/world-modules": "link:../../../mud/packages/world-modules",
+    "@latticexyz/cli": "https://static.biomes.aw/tenetxyz-cli-2.0.8.tgz",
+    "@latticexyz/schema-type": "https://static.biomes.aw/tenetxyz-schema-type-2.0.8.tgz",
+    "@latticexyz/store": "https://static.biomes.aw/tenetxyz-store-2.0.8.tgz",
+    "@latticexyz/world": "https://static.biomes.aw/tenetxyz-world-2.0.8.tgz",
+    "@latticexyz/world-modules": "https://static.biomes.aw/tenetxyz-world-modules-2.0.8.tgz",
     "@openzeppelin/contracts": "^4.9.6"
   },
   "devDependencies": {

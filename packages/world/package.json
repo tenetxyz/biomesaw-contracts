@@ -21,14 +21,14 @@
     "test": "./runTests.bash"
   },
   "dependencies": {
-    "@biomesaw/utils": "workspace:*",
-    "@latticexyz/cli": "link:../../../mud/packages/cli",
-    "@latticexyz/config": "link:../../../mud/packages/config",
-    "@latticexyz/schema-type": "link:../../../mud/packages/schema-type",
-    "@latticexyz/store": "link:../../../mud/packages/store",
-    "@latticexyz/world": "link:../../../mud/packages/world",
-    "@latticexyz/world-modules": "link:../../../mud/packages/world-modules",
-    "@latticexyz/gas-report": "link:../../../mud/packages/gas-report"
+    "@biomesaw/utils": "0.1.4",
+    "@latticexyz/cli": "https://static.biomes.aw/tenetxyz-cli-2.0.8.tgz",
+    "@latticexyz/config": "https://static.biomes.aw/tenetxyz-config-2.0.8.tgz",
+    "@latticexyz/schema-type": "https://static.biomes.aw/tenetxyz-schema-type-2.0.8.tgz",
+    "@latticexyz/store": "https://static.biomes.aw/tenetxyz-store-2.0.8.tgz",
+    "@latticexyz/world": "https://static.biomes.aw/tenetxyz-world-2.0.8.tgz",
+    "@latticexyz/world-modules": "https://static.biomes.aw/tenetxyz-world-modules-2.0.8.tgz",
+    "@latticexyz/gas-report": "https://static.biomes.aw/tenetxyz-gas-report-2.0.8.tgz"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
